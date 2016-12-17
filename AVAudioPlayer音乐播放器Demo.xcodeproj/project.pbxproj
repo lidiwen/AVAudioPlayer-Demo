@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC5212B1C3380F7003CF851 /* LrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC5212A1C3380F7003CF851 /* LrcModel.m */; };
+		EBDA80861C33659B0016223E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA80851C33659B0016223E /* main.m */; };
+		EBDA80891C33659B0016223E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA80881C33659B0016223E /* AppDelegate.m */; };
+		EBDA808C1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBDA808A1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodeld */; };
+		EBDA808F1C33659B0016223E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA808E1C33659B0016223E /* ViewController.m */; };
+		EBDA80921C33659B0016223E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80901C33659B0016223E /* Main.storyboard */; };
+		EBDA80941C33659B0016223E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80931C33659B0016223E /* Images.xcassets */; };
+		EBDA80971C33659B0016223E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80951C33659B0016223E /* LaunchScreen.xib */; };
+		EBDA80A31C33659B0016223E /* AVAudioPlayer_____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA80A21C33659B0016223E /* AVAudioPlayer_____DemoTests.m */; };
+		EBDA80AF1C3365C80016223E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA80AD1C3365C80016223E /* MainViewController.m */; };
+		EBDA80B01C3365C80016223E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80AE1C3365C80016223E /* MainViewController.xib */; };
+		EBDA80B51C336B480016223E /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80B21C336B480016223E /* thumb.png */; };
+		EBDA80B61C336B480016223E /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80B31C336B480016223E /* 情非得已.lrc */; };
+		EBDA80B71C336B480016223E /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBDA80B41C336B480016223E /* 情非得已.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDA809D1C33659B0016223E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDA80781C33659B0016223E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDA807F1C33659B0016223E;
+			remoteInfo = "AVAudioPlayer音乐播放器Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC521291C3380F7003CF851 /* LrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrcModel.h; sourceTree = "<group>"; };
+		EBC5212A1C3380F7003CF851 /* LrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrcModel.m; sourceTree = "<group>"; };
+		EBDA80801C33659B0016223E /* AVAudioPlayer音乐播放器Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVAudioPlayer音乐播放器Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDA80841C33659B0016223E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDA80851C33659B0016223E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBDA80871C33659B0016223E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBDA80881C33659B0016223E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBDA808B1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AVAudioPlayer_____Demo.xcdatamodel"; sourceTree = "<group>"; };
+		EBDA808D1C33659B0016223E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBDA808E1C33659B0016223E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBDA80911C33659B0016223E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBDA80931C33659B0016223E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBDA80961C33659B0016223E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBDA809C1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVAudioPlayer音乐播放器DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDA80A11C33659B0016223E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDA80A21C33659B0016223E /* AVAudioPlayer_____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAudioPlayer_____DemoTests.m"; sourceTree = "<group>"; };
+		EBDA80AC1C3365C80016223E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EBDA80AD1C3365C80016223E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EBDA80AE1C3365C80016223E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		EBDA80B21C336B480016223E /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		EBDA80B31C336B480016223E /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		EBDA80B41C336B480016223E /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDA807D1C33659B0016223E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDA80991C33659B0016223E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBDA80771C33659B0016223E = {
+			isa = PBXGroup;
+			children = (
+				EBDA80B11C336B480016223E /* 音频Demo_资源 */,
+				EBDA80821C33659B0016223E /* AVAudioPlayer音乐播放器Demo */,
+				EBDA809F1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests */,
+				EBDA80811C33659B0016223E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDA80811C33659B0016223E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA80801C33659B0016223E /* AVAudioPlayer音乐播放器Demo.app */,
+				EBDA809C1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDA80821C33659B0016223E /* AVAudioPlayer音乐播放器Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA80871C33659B0016223E /* AppDelegate.h */,
+				EBDA80881C33659B0016223E /* AppDelegate.m */,
+				EBDA80AC1C3365C80016223E /* MainViewController.h */,
+				EBDA80AD1C3365C80016223E /* MainViewController.m */,
+				EBDA80AE1C3365C80016223E /* MainViewController.xib */,
+				EBC521291C3380F7003CF851 /* LrcModel.h */,
+				EBC5212A1C3380F7003CF851 /* LrcModel.m */,
+				EBDA808D1C33659B0016223E /* ViewController.h */,
+				EBDA808E1C33659B0016223E /* ViewController.m */,
+				EBDA80901C33659B0016223E /* Main.storyboard */,
+				EBDA80931C33659B0016223E /* Images.xcassets */,
+				EBDA80951C33659B0016223E /* LaunchScreen.xib */,
+				EBDA808A1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodeld */,
+				EBDA80831C33659B0016223E /* Supporting Files */,
+			);
+			path = "AVAudioPlayer音乐播放器Demo";
+			sourceTree = "<group>";
+		};
+		EBDA80831C33659B0016223E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA80841C33659B0016223E /* Info.plist */,
+				EBDA80851C33659B0016223E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBDA809F1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA80A21C33659B0016223E /* AVAudioPlayer_____DemoTests.m */,
+				EBDA80A01C33659B0016223E /* Supporting Files */,
+			);
+			path = "AVAudioPlayer音乐播放器DemoTests";
+			sourceTree = "<group>";
+		};
+		EBDA80A01C33659B0016223E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA80A11C33659B0016223E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBDA80B11C336B480016223E /* 音频Demo_资源 */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA80B21C336B480016223E /* thumb.png */,
+				EBDA80B31C336B480016223E /* 情非得已.lrc */,
+				EBDA80B41C336B480016223E /* 情非得已.mp3 */,
+			);
+			path = "音频Demo_资源";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDA807F1C33659B0016223E /* AVAudioPlayer音乐播放器Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDA80A61C33659B0016223E /* Build configuration list for PBXNativeTarget "AVAudioPlayer音乐播放器Demo" */;
+			buildPhases = (
+				EBDA807C1C33659B0016223E /* Sources */,
+				EBDA807D1C33659B0016223E /* Frameworks */,
+				EBDA807E1C33659B0016223E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVAudioPlayer音乐播放器Demo";
+			productName = "AVAudioPlayer音乐播放器Demo";
+			productReference = EBDA80801C33659B0016223E /* AVAudioPlayer音乐播放器Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBDA809B1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDA80A91C33659B0016223E /* Build configuration list for PBXNativeTarget "AVAudioPlayer音乐播放器DemoTests" */;
+			buildPhases = (
+				EBDA80981C33659B0016223E /* Sources */,
+				EBDA80991C33659B0016223E /* Frameworks */,
+				EBDA809A1C33659B0016223E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDA809E1C33659B0016223E /* PBXTargetDependency */,
+			);
+			name = "AVAudioPlayer音乐播放器DemoTests";
+			productName = "AVAudioPlayer音乐播放器DemoTests";
+			productReference = EBDA809C1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDA80781C33659B0016223E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iJeff;
+				TargetAttributes = {
+					EBDA807F1C33659B0016223E = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					EBDA809B1C33659B0016223E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EBDA807F1C33659B0016223E;
+					};
+				};
+			};
+			buildConfigurationList = EBDA807B1C33659B0016223E /* Build configuration list for PBXProject "AVAudioPlayer音乐播放器Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDA80771C33659B0016223E;
+			productRefGroup = EBDA80811C33659B0016223E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDA807F1C33659B0016223E /* AVAudioPlayer音乐播放器Demo */,
+				EBDA809B1C33659B0016223E /* AVAudioPlayer音乐播放器DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDA807E1C33659B0016223E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDA80B51C336B480016223E /* thumb.png in Resources */,
+				EBDA80B61C336B480016223E /* 情非得已.lrc in Resources */,
+				EBDA80921C33659B0016223E /* Main.storyboard in Resources */,
+				EBDA80971C33659B0016223E /* LaunchScreen.xib in Resources */,
+				EBDA80941C33659B0016223E /* Images.xcassets in Resources */,
+				EBDA80B01C3365C80016223E /* MainViewController.xib in Resources */,
+				EBDA80B71C336B480016223E /* 情非得已.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDA809A1C33659B0016223E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDA807C1C33659B0016223E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDA80891C33659B0016223E /* AppDelegate.m in Sources */,
+				EBC5212B1C3380F7003CF851 /* LrcModel.m in Sources */,
+				EBDA80861C33659B0016223E /* main.m in Sources */,
+				EBDA808F1C33659B0016223E /* ViewController.m in Sources */,
+				EBDA80AF1C3365C80016223E /* MainViewController.m in Sources */,
+				EBDA808C1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDA80981C33659B0016223E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDA80A31C33659B0016223E /* AVAudioPlayer_____DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDA809E1C33659B0016223E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDA807F1C33659B0016223E /* AVAudioPlayer音乐播放器Demo */;
+			targetProxy = EBDA809D1C33659B0016223E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBDA80901C33659B0016223E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDA80911C33659B0016223E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBDA80951C33659B0016223E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDA80961C33659B0016223E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDA80A41C33659B0016223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBDA80A51C33659B0016223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBDA80A71C33659B0016223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AVAudioPlayer音乐播放器Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBDA80A81C33659B0016223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AVAudioPlayer音乐播放器Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBDA80AA1C33659B0016223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AVAudioPlayer音乐播放器DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVAudioPlayer音乐播放器Demo.app/AVAudioPlayer音乐播放器Demo";
+			};
+			name = Debug;
+		};
+		EBDA80AB1C33659B0016223E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AVAudioPlayer音乐播放器DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVAudioPlayer音乐播放器Demo.app/AVAudioPlayer音乐播放器Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDA807B1C33659B0016223E /* Build configuration list for PBXProject "AVAudioPlayer音乐播放器Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDA80A41C33659B0016223E /* Debug */,
+				EBDA80A51C33659B0016223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDA80A61C33659B0016223E /* Build configuration list for PBXNativeTarget "AVAudioPlayer音乐播放器Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDA80A71C33659B0016223E /* Debug */,
+				EBDA80A81C33659B0016223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDA80A91C33659B0016223E /* Build configuration list for PBXNativeTarget "AVAudioPlayer音乐播放器DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDA80AA1C33659B0016223E /* Debug */,
+				EBDA80AB1C33659B0016223E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBDA808A1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBDA808B1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodel */,
+			);
+			currentVersion = EBDA808B1C33659B0016223E /* AVAudioPlayer_____Demo.xcdatamodel */;
+			path = "AVAudioPlayer_____Demo.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBDA80781C33659B0016223E /* Project object */;
+}
